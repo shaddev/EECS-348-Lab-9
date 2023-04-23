@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+
+#alter_paragraph {
+    border-width: 5px;
+    border-style: solid;
+}
+
+ul>li {
+    color: rgb(58, 123, 101);
+}
+
+ul>li:hover{
+    font-weight: bold;
+}
+
+#heading {
+    color: red;
+    transition: font-size 1s
+}
+
+#heading:hover {
+    font-size: 4em;
+}
+
+#profile{
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    transition: transform 2s;
+}
+
+#profile:hover {
+    transform:  rotate(360deg);
+}
+
+#sample_paragraph {
+    border-width: 3px;
+    border-style: solid;
+    border-color: green;
+    color: blue;
+    font-size: large;
+}
